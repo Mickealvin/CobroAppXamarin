@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cobro.Android", "Cobro.Android\Cobro.Android.csproj", "{C8115512-0CD1-468D-810C-96EC2AC91E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cobro", "Cobro\Cobro.csproj", "{BCED3E7B-15B5-449D-8151-79453717E517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8115512-0CD1-468D-810C-96EC2AC91E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8115512-0CD1-468D-810C-96EC2AC91E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8115512-0CD1-468D-810C-96EC2AC91E9B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C8115512-0CD1-468D-810C-96EC2AC91E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8115512-0CD1-468D-810C-96EC2AC91E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8115512-0CD1-468D-810C-96EC2AC91E9B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BCED3E7B-15B5-449D-8151-79453717E517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCED3E7B-15B5-449D-8151-79453717E517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCED3E7B-15B5-449D-8151-79453717E517}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BCED3E7B-15B5-449D-8151-79453717E517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCED3E7B-15B5-449D-8151-79453717E517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCED3E7B-15B5-449D-8151-79453717E517}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82F725B6-E741-45B5-ACC4-EE9A33ED27FD}
+	EndGlobalSection
+EndGlobal

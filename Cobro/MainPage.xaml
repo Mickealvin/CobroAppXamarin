@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cobro.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to CobroApp!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+       
+
+        <Entry
+            Placeholder="Monto Factura"
+            Keyboard="Numeric"
+            x:Name="EmontoFactura"
+           
+        />
+        <Entry
+            Placeholder="Dias"
+            Keyboard="Numeric"
+            x:Name="EDias"
+        />
+        <Entry
+            Placeholder="Descuento"
+            Keyboard="Numeric"
+            x:Name="EDescuento"
+        />
+        <Entry
+            Placeholder="Mora"
+            Keyboard="Numeric"
+            x:Name="EMora"
+        />
+        <Entry
+            Placeholder="Neto a Pagar"
+            Keyboard="Numeric"
+            x:Name="ENetoapagar"
+        />
+        
+        <Entry
+            Placeholder="Total a pagar"
+            Keyboard="Numeric"
+            x:Name="ETotalapagar"
+        />
+
+        <Button 
+            
+            Text="Procesar"
+            Clicked="Decision"
+            />
+
+        <Button 
+            
+            Text="Limpiar"
+            Clicked="Limpiar"
+            />
+
+        <Button 
+            
+            Text="Salir"
+            Clicked="Salidas"
+            />
+    </StackLayout>
+
+</ContentPage>
